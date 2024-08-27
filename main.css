@@ -1,0 +1,97 @@
+/* Allgemeine Stile */
+h1{
+text-align: center;
+
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:rgb(246, 244, 241);
+}
+
+/* Header-Stile */
+header {
+    background: rgb(246, 244, 241);
+    color:rgb(246, 244, 241);
+    padding: 1rem;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #5c5457;
+    text-decoration: none;
+}
+
+#projects {
+    text-align: center;
+    width: 950px;
+    height: 600px;
+}
+
+
+
+
+/* Abschnitts-Stile */
+section {
+    padding: 20px;
+    margin: 10px 10px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+#about{
+
+text-align: center;
+width: 1000px;
+height: 200px;
+
+}
+
+#skills{
+
+    width: 400px;
+    height: 600px;
+
+}
+
+#contact{
+text-align: center;
+    width: 350px;
+    height: 200px;
+
+
+}
+
+.profile-img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+        position: relative; /* oder absolute, wenn du absolute Positionierung benötigst */
+        top: -60px; /* Verschiebt das Bild nach oben */
+        float: left;
+        margin-right: 10px;
+    }
+
+    section {
+        
+        float: left; 
+        
+      
+    }
+
